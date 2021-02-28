@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box; 
+  }
+.head{
+  color: #f05031;
+}
+.start{
+  background-image: url(./333.jpg);
+ width: auto;}
+ .start{
+   padding-left: 70px;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   color: white;
+   background-attachment: fixed;
+   font-size: 23px;
+ }

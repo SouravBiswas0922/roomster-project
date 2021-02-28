@@ -1,0 +1,87 @@
+
+/* about section styling */
+
+.about{
+    font-family: 'Poppins',sans-serif;
+    display: inline;
+
+}
+.about .title{
+    position: relative;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: 'Ubuntu',sans-serif;
+    margin-top: -89px;
+    margin-bottom: 24px;
+}
+.about .title::before{
+    content:"";
+    position:absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: #111;
+    transform: translateX(-50%);
+}
+
+.about .title::after{
+    content:"description";
+    position:absolute;
+    bottom: -12px;
+    left: 50%;
+    font-size: 20px;
+    color: #f05031;
+    padding: 5px;
+    
+    background: #fff;
+    transform: translateX(-50%);
+}
+
+.about .about-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.about .about-content .column_left{
+    width: 45%;
+}
+.about .about-content .column_left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    padding: 60px;
+    padding-top: 26px;
+    border-radius: 6px;
+}
+
+.about .about-content .column_right{
+    width: 55%;
+}
+.about .about-content .column_right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.about .about-content .column_right .text .h1{
+    color: #f05031;
+}
+.about .about-content .column_right p{
+    text-align: justify;
+}
+.about .about-content .column_right a{
+    display: inline-block;
+    background: #f05031;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid #f05031;
+    transition: all 0.3s ease;
+
+}

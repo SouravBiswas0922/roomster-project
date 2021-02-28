@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>anika it</title>
+    <link rel="stylesheet" href="css/font.css">
+    <script src="https://kit.fontawesome.com/81a38bfebe.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    
+   <!-- footer item -->
+   <link rel="stylesheet" href="./service.css">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- footer item -->
+    <!---all item-->
+
+    <link rel="stylesheet" href="./about us.css">
+<!---service -->
+<link rel="stylesheet" href="./service.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<!----service-->
+
+<!----our team section starts-->
+<link rel="stylesheet" href="our team.css">
+    
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+ integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<!--our team section ends-->
+
+<!---footer-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" />
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="footer.css">
+        <!-- Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <!--footer section ends-->
+    <!-----all item-->
+
+
+    <script src="js/jquery3.1.0.min.js"></script>
+    <script src="js/gsap.min.js"></script>
+</head>
+
+<body>
+    <section class="index_body">
+    <div class="container_index">
+        <nav>
+            <div class="logo_index">anika it</div>
+            <ul>
+                <li class="active">Home</li>
+                <li>Our Products</li>
+                <li>About Us</li>
+                <li>Contact</li>
+            </ul>
+            <div class="btn_ac">Sign in</div>
+        </nav>
+        <div class="main_content">
+            <h1>ANIKAIT
+             </h1>
+            <div class="item">
+                <div class="product_details">
+                    <h2>We Are Creative</h2>
+                    <p>Marketing Agency</p>
+                    <div class="price">anika it corner<span>TM</span></div>
+                </div>
+                <div class="cta_group">
+                    <div class="btn">More details</div>
+                    <div class="btn active">Sign-up</div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="shadow">
+                    <img src="Logo design 4-01.png">
+                </div>
+            </div>
+        </div>
+        <div class="footer_index">
+            
+            <div class="social_index">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-youtube" aria-hidden="true"></i>
+            </div>
+        </div>
+    </div>
+    <script>
+        const hf = gsap.timeline();
+        hf.from(".container_index", {
+            duration: 1.2,
+            y: -200,
+            height: 0,
+            opacity: 0,
+            ease: "power3.inOut"
+        })
+            .from("nav", {
+                delay: -0.2,
+                y: -16,
+                opacity: 0,
+                duration: 0.8,
+                ease: "power3.inOut"
+            })
+            .from([".product_details h2", ".product_details p", ".price"], {
+                delay: -0.2,
+                y: -40,
+                opacity: 0,
+                duration: 0.8,
+                ease: "power3.easeInOut",
+                stagger: {
+                    amount: .3
+                }
+            })
+            .from(".shadow", {
+                delay: -0.4,
+                x: 20,
+                opacity: 0,
+                duration: 0.8,
+                ease: "power3.out"
+            })
+            .from("h1", {
+                delay: -0.4,
+                x: -20,
+                opacity: 0,
+                duration: 0.8,
+                ease: "power3.out"
+            })
+            .from([".btn"], {
+                delay: -0.2,
+                x: -40,
+                opacity: 0,
+                duration: 0.8,
+                ease: "power3.ease",
+                stagger: {
+                    amount: .3
+                }
+            })
+
+            .from(".footer_index", {
+                delay: -0.2,
+                y: 16,
+                opacity: 0,
+                duration: 0.8,
+                ease: "power3.inOut"
+            }
+    </script>
+</section>
+    
+<section>
+    <div class="our-services">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1>Services we provide</h1>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="service-box">
+                        <div class="icon">
+                            <i class="fab fa-dropbox"></i>
+                        </div>
+                        <a href="#"><h3>Dropshipping</h3></a>
+                        <div class="short-description">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+                    <div class="service-box">
+                        <div class="icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <a href="#"><h3>Web Development</h3></a>
+                        <div class="short-description">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eaque ratione rem porro, nihil.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+                    <div class="service-box">
+                        <div class="icon">
+                            <i class="fas fa-broom"></i>
+                        </div>
+                        <a href="#"><h3>Graphics Designs</h3></a>
+                        <div class="short-description">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+                    <div class="service-box">
+                        <div class="icon">
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <a href="#"><h3>Video Editing</h3></a>
+                        <div class="short-description">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eaque ratione rem porro, nihil.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+                    <div class="service-box">
+                        <div class="icon">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <a href="#"><h3>Digital Marketing</h3></a>
+                        <div class="short-description">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+                    <div class="service-box">
+                        <div class="icon">
+                            <i class="fab fa-cc-visa"></i>
+                        </div>
+                        <a href="#"><h3>Paid Advertising</h3></a>
+                        <div class="short-description">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="about" id="about">
+       <div class="max-width">
+           <h2 class="title">About us</h2>
+           <div class="about-content">
+               <div class="column_left">
+                 <img src="./paper.jpg" alt="">
+               </div>
+               <div class="column_right">
+                   <div class="text">
+                     <h1 class="h1">WHY ANIKA IT</h1>
+                   </div>
+                   <p>
+                    ANIKA IT Corner was founded in 2019, assiduous and innovative Entrepreneur deal with the information Tecnology and inentive solution. Anika Hassan , chief Executive Officer (CEO) Along with four other Young entrepreneur who are skilled with IT backgrund by having smooth career pathway started there business with full with full of dreams thate leads the organization to pick of success . Anika IT Corner have experienced with various government projects such as digital World, Power weak , learning and Earning Development project so on .
+
+                   </p>
+                   <a href="a">Click Here</a>
+
+               </div>
+           </div>
+       </div>
+    </section>
+<!----service section-->
+    <section>
+        <div class="our-services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1>Services we provide</h1>
+                        <hr>
+                    </div>
+                </div>
+    
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="service-box">
+                            <div class="icon">
+                                <i class="fab fa-dropbox"></i>
+                            </div>
+                            <a href="#"><h3>Dropshipping</h3></a>
+                            <div class="short-description">
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-md-4 col-sm-6">
+                        <div class="service-box">
+                            <div class="icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <a href="#"><h3>Web Development</h3></a>
+                            <div class="short-description">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eaque ratione rem porro, nihil.</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-md-4 col-sm-6">
+                        <div class="service-box">
+                            <div class="icon">
+                                <i class="fas fa-broom"></i>
+                            </div>
+                            <a href="#"><h3>Graphics Designs</h3></a>
+                            <div class="short-description">
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-md-4 col-sm-6">
+                        <div class="service-box">
+                            <div class="icon">
+                                <i class="fas fa-video"></i>
+                            </div>
+                            <a href="#"><h3>Video Editing</h3></a>
+                            <div class="short-description">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eaque ratione rem porro, nihil.</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-md-4 col-sm-6">
+                        <div class="service-box">
+                            <div class="icon">
+                                <i class="fas fa-chart-bar"></i>
+                            </div>
+                            <a href="#"><h3>Digital Marketing</h3></a>
+                            <div class="short-description">
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-md-4 col-sm-6">
+                        <div class="service-box">
+                            <div class="icon">
+                                <i class="fab fa-cc-visa"></i>
+                            </div>
+                            <a href="#"><h3>Paid Advertising</h3></a>
+                            <div class="short-description">
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+<!---service section end-->
+
+<!--our team section starts-->
+<section class="team-section">
+    <h2 class="h2">Meet Our Team</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-6">
+                <div class="our-team">
+                    <div class="pic">
+                        <img src="CEO.jpg">
+                    </div>
+                    <div class="content">
+                        <h3 class="title">Anika hasan</h3>
+                        <span class="post">CEO</span>
+                        <ul class="social">
+                            <li><a href="#" class="fa fa-facebook"></a></li>
+                            <li><a href="#" class="fa fa-twitter"></a></li>
+                            <li><a href="#" class="fa fa-linkedin"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="our-team">
+                    <div class="pic">
+                        <img src="md.jpg" alt="team member" class="img-responsive">
+                    </div>
+                    <div class="content">
+                        <h3 class="title">ifaz raju</h3>
+                        <span class="post">Web Developer</span>
+                        <ul class="social">
+                            <li><a href="#" class="fa fa-facebook"></a></li>
+                            <li><a href="#" class="fa fa-twitter"></a></li>
+                            <li><a href="#" class="fa fa-linkedin"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+           <div class="col-md-4 col-sm-6">
+                <div class="our-team">
+                    <div class="pic">
+                        <img src="03.jpg" alt="team member" class="img-responsive">
+                    </div>
+                    <div class="content">
+                        <h3 class="title">Ifaz Razu</h3>
+                        <span class="post">Hr & admin</span>
+                        <ul class="social">
+                            <li><a href="#" class="fa fa-facebook"></a></li>
+                            <li><a href="#" class="fa fa-twitter"></a></li>
+                            <li><a href="#" class="fa fa-linkedin"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+       
+            <div class="col-md-4 col-sm-6">
+                <div class="our-team">
+                    <div class="pic">
+                        <img src="03.jpg" alt="team member" class="img-responsive">
+                    </div>
+                    <div class="content">
+                        <h3 class="title">ifaz raju</h3>
+                        <span class="post">Web Developer</span>
+                        <ul class="social">
+                            <li><a href="#" class="fa fa-facebook"></a></li>
+                            <li><a href="#" class="fa fa-twitter"></a></li>
+                            <li><a href="#" class="fa fa-linkedin"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <div class="our-team">
+                    <div class="pic">
+                        <img src="03.jpg" alt="team member" class="img-responsive">
+                    </div>
+                    <div class="content">
+                        <h3 class="title">Ifaz razu</h3>
+                        <span class="post">Web Developer</span>
+                        <ul class="social">
+                            <li><a href="#" class="fa fa-facebook"></a></li>
+                            <li><a href="#" class="fa fa-twitter"></a></li>
+                            <li><a href="#" class="fa fa-linkedin"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col-md-4 col-sm-6">
+                <div class="our-team">
+                    <div class="pic">
+                        <img src="03.jpg" alt="team member" class="img-responsive">
+                    </div>
+                    <div class="content">
+                        <h3 class="title">ifaz raju</h3>
+                        <span class="post">Web Developer</span>
+                        <ul class="social">
+                            <li><a href="#" class="fa fa-facebook"></a></li>
+                            <li><a href="#" class="fa fa-twitter"></a></li>
+                            <li><a href="#" class="fa fa-linkedin"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+   </section>
+
+   <!---our team section end-->
+<!--footer section starts-->
+<footer>
+    <div class="footer-top">
+        <div class="logo1">
+            <img  id="logo"  src="./Logo design 4-01.png" alt="" />
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="address">
+                        <h3>ANIKA IT CORNER</h3>
+                        
+                        <p class="mb-4 mt-4">Sheikh hasina technology park</p>
+                        <p><strong>Phone:</strong>01956147628</p>
+                        <p><strong>Email:</strong> suvo.anikaitcorner@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-sm-6 footer-menus">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><i class="fas fa-check"></i> <a href="#">Home</a></li>
+                        <li><i class="fas fa-check"></i> <a href="#">About us</a></li>
+                        <li><i class="fas fa-check"></i> <a href="#">Services</a></li>
+                        <li><i class="fas fa-check"></i> <a href="#">Terms of service</a></li>
+                        <li><i class="fas fa-check"></i> <a href="#">Privacy policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 footer-menus">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><i class="fas fa-check"></i> <a href="#">Web Design</a></li>
+                        <li><i class="fas fa-check"></i> <a href="#">Web Development</a></li>
+                        <li><i class="fas fa-check"></i> <a href="#">Product Management</a></li>
+                        <li><i class="fas fa-check"></i> <a href="#">Marketing</a></li>
+                        <li><i class="fas fa-check"></i> <a href="#">Graphic Design</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-sm-6 newsletter">
+                    <h4>Our Newsletter</h4>
+                    <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                    <form action="" method="post"><input type="email" name="email" /><input type="submit" value="Subscribe" /></form>
+
+                    <div class="social-links mt-3">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="footer_text">&copy; Copyright <strong>anikaitcorner</strong>. All Rights Reserved</p>
+                    <p class="footer_text">Created by <a href="https://www.anikaitcorner.com/">anikaitcorner</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+  
+
+</body>
+
+</html>
